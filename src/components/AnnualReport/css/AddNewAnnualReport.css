@@ -1,0 +1,9 @@
+label{
+    color: #595d6e;
+}
+
+@media(max-width: 1440px) {
+    .modal-body{
+        width: 100% !important;
+    }
+}

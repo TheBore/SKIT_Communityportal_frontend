@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  web:
+    image: $CONTAINER_IMAGE
+    deploy:
+      restart_policy:
+        condition: any
+        delay: 60s
+      labels:
+        - traefik.frontend.rule=Host:community-portal.dev.inteligenta.io
+        - traefik.docker.network=traefik
+        - traefik.port=3000
+        - traefik.protocol=http
+        - traefik.enable=true
+        - traefik.tags=traefik
+        - traefik.redirectorservice.frontend.entryPoints=http
+        - traefik.redirectorservice.frontend.redirect.entryPoint=https
+        - traefik.webservice.frontend.entryPoints=https
+    networks:
+      - traefik
+    environment:
+      - REACT_APP_API_GATEWAY=https://community-portal.dev.inteligenta.io/
+      - REACT_APP_HOST_ENV=https://community-portal.dev.inteligenta.io/
+
+networks:
+  traefik:
+    external: true

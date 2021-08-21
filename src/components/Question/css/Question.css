@@ -1,0 +1,223 @@
+.addQuestionBtn {
+    float: right;
+    font-size: 17px;
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.inactiveQuestionsBtn {
+    float: right;
+    font-size: 17px;
+    color: white !important;
+    margin: 10px;
+    background: #50A5E4 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.inactiveQuestionsBtn span {
+    color: white !important;
+}
+
+.addQuestionBtn span {
+    color: black;
+    padding: 5px;
+}
+
+.deleteQuestionBtn {
+    float: right;
+    font-size: 17px;
+    color: white !important;
+    padding: 5px 15px 5px 15px;
+    background: #F60C0C !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+.deleteQuestionBtn span {
+    color: white;
+    padding: 10px;
+}
+
+.editQuestionBtn {
+    float: right;
+    font-size: 17px;
+    color: black !important;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    background: #EABF32 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 10px;
+}
+
+.editQuestionBtn span {
+    color: black;
+    padding: 10px;
+}
+
+.QuestionMainDiv {
+    /*background: rgb(224,224,224);*/
+    /*background: linear-gradient(153deg, rgba(224,224,224,1) 67%, rgba(222,222,222,1) 100%);*/
+    border-radius: 20px;
+    background: #DFF6FF;
+    border: 1px solid grey;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 2px grey;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.QuestionRow {
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #505050;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.page-item.active .page-link {
+    background-color: #595d6e;
+    border-color: #595d6e;
+    box-shadow: none;
+}
+
+.pagination li a:hover {
+    background-color: #595d6e;
+    border-color: #595d6e;
+    color: white;
+}
+
+.page-link {
+    color: #6c757d;
+}
+
+.QuestionAdminActionButton {
+    float: right;
+    margin-left: 5px;
+    width: 110px;
+    height: 35px;
+    opacity: 1 !important;
+}
+
+.opac {
+    opacity: 0.75;
+}
+
+hr.questionsHr {
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+
+/*INACTIVE QUESTIONS */
+
+.questionsBtn {
+    float: right;
+    font-size: 17px;
+    color: white !important;
+    margin: 10px;
+    background: #50A5E4 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.publicationDivContainer {
+    background-color: white;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 3px gray;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.publicationDivContainerDark {
+    background-color: #BCDFEF;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.announcementTitleRow {
+    margin: 10px 0 10px 0;
+}
+
+.announcementTitle {
+    text-align: center;
+    color: #1C4857;
+}
+
+.announcementBodyRow {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.announcementBody {
+    color: #343a40;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 110ch;
+    font-size: 14px;
+}
+
+.announcementLinkButton {
+    margin-left: 5px;
+    color: darkblue;
+    height: 100%;
+}
+
+
+.announcementLinkButton:hover {
+    color: black !important;
+    height: 100%;
+}
+
+.announcementFooterRow {
+    height: 50px;
+    width: 99% !important;
+    border-top: 1px solid dimgrey;
+    border-radius: 10px;
+}
+
+.badgeText {
+    font-size: 11px;
+    padding: 5px 10px 5px 10px !important;
+    margin-top: 3px;
+}
+
+.announcementFooterCol {
+    padding-left: 10px !important;
+    margin-top: -20px !important;
+}
+
+.pagination {
+    padding-top: 20px;
+    width: 100%;
+}

@@ -1,0 +1,18 @@
+#basic-addon2:hover{
+    background-color: #76979a;
+}
+
+#buttonWhiteColor:hover{
+    background-color: #76979a !important;
+    color: black !important;
+}
+
+#basic-addon2{
+    background-color: lightblue;
+}
+
+#buttonWhiteColor{
+    background-color: lightblue !important;
+    color: black !important;
+    font-size: 15px;
+}

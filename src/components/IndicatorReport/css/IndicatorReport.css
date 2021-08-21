@@ -1,0 +1,36 @@
+.fixedStatus {
+    background-color: white;
+    position:fixed;
+    top:69px;
+    width:100%;
+    z-index:100;
+    padding-top: 16px;
+}
+
+.indicatorReportAddBtn {
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.indicatorReportAddBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.indicatorReportEditBtn {
+    color: white !important;
+    margin: 10px;
+    background: #DC3545 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.indicatorReportEditBtn span {
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+}

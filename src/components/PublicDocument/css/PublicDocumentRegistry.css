@@ -1,0 +1,56 @@
+.sectionTitle{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.sectionCol{
+    padding: 20px;
+}
+
+.sectionDiv{
+    box-shadow: 0 0 4px rgba(52, 58, 64, 0.33);
+    padding: 50px !important;
+    min-height: 400px;
+}
+
+.selectYear{
+    margin-top: 50px;
+}
+
+.showButton{
+    margin: 15px 0 15px 0;
+}
+
+.resultsDiv{
+    margin-top: 20px;
+}
+
+/*Right Col*/
+
+.yearInputDiv{
+    margin-top: 50px;
+}
+
+.urlInputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.docTypeDiv{
+    height: 46.8px;
+    width: 100px;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6c757d;;
+    color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.saveButton{
+    height: 38px;
+}

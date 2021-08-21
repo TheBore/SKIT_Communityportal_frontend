@@ -1,0 +1,17 @@
+.btnData {
+    width: 11%;
+}
+
+.defaultBtnAdd {
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #03DAC5 !important;
+    color: black !important;
+}
+
+.defaultBtnEdit {
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #EABF32 !important;
+    color: black !important;
+}

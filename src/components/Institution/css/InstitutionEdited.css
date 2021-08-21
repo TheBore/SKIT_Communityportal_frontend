@@ -1,0 +1,33 @@
+td {
+    word-wrap: break-word;
+}
+
+.searchInstitutionsInputStyle {
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 0 4px #1C4857;
+}
+
+.InstitutionAdminActionButton {
+    float: left;
+    margin-left: 5px;
+    width: 110px;
+    height: 35px;
+    opacity: 1 !important;
+}
+
+.select__indicator.select__clear-indicator.css-tlfecz-indicatorContainer {
+    display: none;
+}
+
+.go1003880112.clear-selected-button {
+    display: none;
+}
+
+.dropdown-heading-dropdown-arrow.gray {
+    display: none;
+}
+
+.select__indicator.select__dropdown-indicator.css-tlfecz-indicatorContainer {
+    display: none;
+}

@@ -1,0 +1,155 @@
+.addIndicatorBtn {
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.addIndicatorBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.editActivityBtn {
+    color: black !important;
+    margin: 10px;
+    background: #EABF32 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.editActivityBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.indicatorReports {
+    color: black !important;
+    font-size: 100%;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.indicatorReports span {
+    color: black;
+    padding: 5px;
+}
+
+.addIndicatorReportBtn {
+    font-size: 100%;
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.addIndicatorReportBtn span {
+    color: black;
+    padding: 5px;
+}
+
+.editIndicatorReportBtn {
+    font-size: 100%;
+    color: black !important;
+    margin: 10px;
+    background: #EABF32 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.editIndicatorReportBtn span {
+    color: black;
+    padding: 5px;
+}
+
+.editIndicatorBtn {
+    font-size: 100%;
+    margin: 5px;
+    background: #F0AD4E !important;
+    border-radius: 20px !important
+}
+
+.editIndicatorBtn span {
+    color: white;
+    padding: 5px;
+}
+
+
+/*TABLE EDITING*/
+
+.tableHead {
+    background: #BCDFEF;
+}
+
+.newTable {
+    margin-right: auto;
+    table-layout: fixed;
+    font-size: 13.5px;
+}
+
+.tableHeading {
+    padding: 10px;
+    color: darkblue !important;
+    font-size: 13.5px !important;
+}
+
+.firstHeading {
+    padding-left: 10px;
+    border-radius: 15px 0 0 0;
+}
+
+.lastHeading {
+    padding-right: 5px;
+    border-radius: 0 15px 0 0;
+}
+
+.tableData {
+    padding: 10px;
+    color: black;
+}
+
+.firstData {
+    padding-left: 10px;
+}
+
+.tableStatus {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.page-item.active .page-link{
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.page-item:first-child .page-link:hover {
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.page-item:last-child .page-link:hover {
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.pagination li a:hover {
+    background: #67C4EF;
+}
+
+.includedInstitution {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activePage {
+    color: white;
+    background: #67C4EF;
+    border-color: darkblue
+}

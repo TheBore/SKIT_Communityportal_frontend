@@ -1,0 +1,27 @@
+.annualReportTableHeaderDiv{
+    border-radius: 10px;
+    border-bottom: 3px solid #595d6e;
+    border-top: 3px solid #595d6e;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    color: #595d6e;
+    font-weight: bold;
+}
+
+.currentYearHeading{
+    color: darkred;
+    font-weight: bold;
+}
+
+.YearPickerCol{
+    z-index: 1;
+}
+.rdt{
+    width: 250px;
+    color: #595d6e !important;
+}
+.rdtPicker{
+    color: #595d6e;
+}

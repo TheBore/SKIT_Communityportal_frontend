@@ -1,0 +1,49 @@
+#addBtn {
+    margin: 10px;
+    background: #03DAC5;
+    border-radius: 20px !important
+}
+
+#addBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.editMeasureBtn {
+    color: black !important;
+    margin: 10px;
+    background: #EABF32 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.editMeasureBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.addActivityBtn {
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.addActivityBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.customBreadcrumb {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #67C4EF;
+    border-radius: 0 20px 20px 0;
+    padding: 8px;
+    box-shadow: 3px 0 3px -1.5px grey
+}

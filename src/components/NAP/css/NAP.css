@@ -1,0 +1,116 @@
+#addBtn {
+    margin: 10px;
+    background: #03DAC5;
+    border-radius: 20px !important
+}
+
+#addBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.editNapBtn {
+    color: black !important;
+    margin: 10px;
+    background: #EABF32 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.editNapBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+.addMeasureBtn {
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.addMeasureBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+
+
+.customBreadcrumb {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #67C4EF;
+    border-radius: 0 20px 20px 0;
+    padding: 8px;
+    box-shadow: 3px 0 3px -1.5px grey;
+    letter-spacing: 1.5px;
+}
+
+/*Evaluation opening buttons*/
+
+.addNewEvalBtn {
+    color: black !important;
+    margin: 10px;
+    background: #03DAC5 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.addNewEvalBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.openOldEvalBtn {
+    color: black !important;
+    margin: 10px;
+    background: #50A5E4 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.openOldEvalBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.closeEvalBtn {
+    color: black !important;
+    margin: 10px;
+    background: #ff0000 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.closeEvalBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.descriptionBtn {
+    color: black !important;
+    margin: 10px;
+    background: white !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.descriptionBtn span {
+    color: black;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.descriptionBtn:active {
+    border: 2px solid black;
+}
+

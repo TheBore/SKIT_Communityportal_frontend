@@ -1,0 +1,79 @@
+.publicationDivContainer{
+    background-color: #e0faff !important;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 3px gray;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.publicationDivContainerDark{
+    background-color: #a4a3a3;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.announcementTitleRow{
+    margin: 10px 0 10px 0;
+}
+
+.announcementTitle{
+    text-align: center;
+    color: #1C4857;
+}
+
+.announcementBodyRow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.announcementBody{
+    color: #343a40;
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 110ch;
+    font-size: 14px;
+}
+
+.announcementLinkButton{
+    margin-left: 5px;
+    color: white;
+    height: 100%;
+}
+
+.announcementLinkButton:hover{
+    color: white !important;
+    height: 100%;
+}
+
+.announcementFooterRow{
+    height: 50px;
+    width: 99% !important;
+    border-top: 1px solid dimgrey;
+    border-radius: 10px;
+}
+
+.badgeText{
+    font-size: 11px;
+    padding: 5px 10px 5px 10px !important;
+    margin-top: 3px;
+}
+.announcementFooterCol{
+    padding-left: 10px !important;
+}
+
+.pagination{
+    padding-top: 20px;
+    width: 100%;
+}

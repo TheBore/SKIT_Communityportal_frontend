@@ -1,0 +1,47 @@
+.annualReportTableBodyDivEven{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #aeaeae;
+    color: #595d6e;
+    border-radius: 10px;
+}
+
+.annualReportTableBodyDivOdd{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #d9d9d9;
+    color: #595d6e;
+    border-radius: 10px;
+}
+
+.annualReportStatusSubmitted{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.annualReportStatusInProgress{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.AnnualReportTableRowCheck{
+    color: black;
+}
+
+.AnnualReportTableRowSubmit{
+    color: green;
+}
+
+.AnnualReportTableRowFile a{
+    color: #76001B;
+    font-weight: bold;
+}
+
+.AnnualReportTableRowFile a:hover{
+    color: #530114;
+    font-weight: bold;
+}

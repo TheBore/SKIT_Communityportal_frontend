@@ -1,0 +1,71 @@
+/*.centerDiv{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+.answersDivMargin{
+    /*padding: 30px;*/
+}
+
+/*Text Answers*/
+.textAnswersNTitleDiv{
+
+}
+.textAnswersDiv{
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: steelblue;
+    overflow-y: auto;
+}
+
+.textAnswers{
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+.textAnswers:hover{
+    color: brown;
+}
+
+/*Visual Answers*/
+.bar {
+    fill: brown;
+}
+
+.bar:hover {
+    fill: firebrick;
+    cursor: pointer;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    /*display: none;*/
+}
+
+
+/*.aroundBarChart{*/
+/*    background-color: #d9d9d9;*/
+/*    width: 50%;*/
+/*    padding: 20px;*/
+/*    margin-top: 30px;*/
+/*    border-radius: 20px;*/
+/*    box-shadow: 0 0 3px gray;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*}*/

@@ -1,0 +1,28 @@
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1800px;
+    max-width: 80%;
+    height: 1000px;
+    max-height: 93%;
+}
+
+.delete-modal {
+    width: 700px;
+    height: 210px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.modal-title {
+    color: black;
+    font-weight: 600 !important;
+}

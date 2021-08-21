@@ -1,0 +1,29 @@
+/*.xterm-custom{*/
+/*    background-color:black;*/
+/*}*/
+/*.fullscreen-enabled {*/
+/*    height:100%;*/
+/*}*/
+
+/*.fullscreen-enabled .terminal.xterm {*/
+/*    height: 100%;*/
+/*}*/
+/*.fullscreen-enabled .xterm-viewport {*/
+/*    height: 100% !important;*/
+/*}*/
+/*.btn {*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.modal-body {*/
+/*    max-height: calc(100vh - 210px);*/
+/*    overflow-y: auto;*/
+/*}*/
+
+/*.modal-body > pre {*/
+/*    padding:10px;*/
+/*}*/
+
+/*aside .nav {*/
+/*    justify-content: flex-end;*/
+/*}*/

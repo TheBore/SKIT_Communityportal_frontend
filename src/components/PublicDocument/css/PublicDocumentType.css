@@ -1,0 +1,51 @@
+.staticLawArticleRowDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.staticLawArticleColDiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #343a40;
+    border-radius: 10px !important;
+}
+
+.staticLawArticleTitle{
+    color: darkred;
+    margin-top: 10px !important;
+}
+
+.staticLawArticleMoreButton{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: transparent !important;
+    color: darkred !important;
+    border-radius: 10px !important;
+    border-color: darkred !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.staticLawArticleBodyColDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #343a40;
+    border-bottom: 2px solid #343a40;
+    border-radius: 10px !important;
+}
+
+.staticLawArticleTitle{
+    color: darkred;
+    font-size: 14px;
+    text-align: left;
+}
+
+.staticLawArticleText{
+    color: #343a40;
+    border-top: 1px solid #1C4857;
+    text-align: left;
+}

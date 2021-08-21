@@ -1,0 +1,32 @@
+.FeedbackToPublishBlueTextColor{
+    color: #1C4857;
+}
+
+.FeedbackToPublishTextColor{
+    color: gray;
+}
+
+.FeedbackToPublishRedTextColor{
+    color: darkred;
+}
+
+.FeedbackToPublishDetailsContainerDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.FeedbackToPublishDetailsCol{
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    box-shadow: 0 0 3px gray;
+    min-height: 100px;
+}
+
+.FeedbackToPublishdueDateRow{
+    display: flex;
+    justify-content: center;
+}
+
+.tabButton:focus {
+    outline: none !important;
+}

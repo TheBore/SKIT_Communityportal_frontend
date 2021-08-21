@@ -1,0 +1,22 @@
+li.dropdown-item {
+    background-color: #343a40;
+}
+
+li.dropdown-item:hover {
+    background-color: #343a40;
+}
+
+div.dropdown-menu {
+    background-color: #343a40;
+}
+
+a, a:hover {
+    color: #ffffff;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.btn:focus{
+    box-shadow: none !important;
+}

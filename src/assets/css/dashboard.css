@@ -1,0 +1,738 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');*/
+
+/*body {*/
+/*    background: #fff;*/
+/*    color: #000;*/
+/*}*/
+
+/*a {*/
+/*    color: #ff8500;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: #264161;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.margin-left-10 {*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.header-dashboard {*/
+/*    width: calc(100% - 430px);*/
+/*    margin-left: 430px;*/
+/*    box-shadow: 2px 2px 8px #e4e4e4;*/
+/*    padding: 50px 35px;*/
+/*}*/
+
+/*.header-info_name {*/
+/*    color: #ff5a00;*/
+/*    padding: 0 20px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.header-dashboard .contact-info {*/
+/*    display: inline;*/
+/*}*/
+
+/*.header-dashboard .btn-logout {*/
+/*    display: inline-block;*/
+/*    margin-left: 20px;*/
+
+/*}*/
+
+/*.sidebar {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    z-index: 1000;*/
+/*    display: block;*/
+/*    padding: 20px;*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: auto;*/
+/*    background-color: #264161;*/
+/*    border-right: 1px solid #264161;*/
+/*    width: 430px;*/
+/*}*/
+
+/*.sidebar .logo {*/
+/*    margin: 50px auto;*/
+/*}*/
+
+/*.sidebar .btn-logout {*/
+/*    background: transparent;*/
+/*    float: right;*/
+/*}*/
+
+/*.sidebar .nav {*/
+/*    height: calc(100vh - 520px);*/
+/*    overflow: auto;*/
+/*}*/
+
+/*.navbar-nav>li {*/
+/*    float: none;*/
+/*}*/
+
+/*.navbar-nav {*/
+/*    float: none;*/
+/*    margin: inherit;*/
+/*}*/
+
+/*#navbar {*/
+/*    padding: 0;*/
+/*}*/
+
+/*!* width *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 8px;*/
+/*    height: 8px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 2px grey;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle *!*/
+/*::-webkit-scrollbar-thumb {*/
+/*    background: #152a42;*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/*!* Handle on hover *!*/
+/*::-webkit-scrollbar-thumb:hover {*/
+/*    background: #122438;*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*.nav>li {*/
+/*    border-bottom: 1px solid #39516e;*/
+/*    margin: 20px 35px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.nav>li>a {*/
+/*    font-size: 17px;*/
+/*    font-family: 'Relway-Bold', sans-serif;*/
+/*    color: rgba(255, 255, 255, 0.5);*/
+/*    text-transform: uppercase;*/
+/*    padding-left: 55px;*/
+/*    -webkit-transition: all 200ms ease-in-out;*/
+/*    -moz-transition: all 200ms ease-in-out;*/
+/*    -ms-transition: all 200ms ease-in-out;*/
+/*    -o-transition: all 200ms ease-in-out;*/
+/*    transition: all 200ms ease-in-out;*/
+/*    position: relative;*/
+/*    font-weight: 700;*/
+/*}*/
+
+/*.nav>li.active>a,*/
+/*.nav>li:hover>a {*/
+/*    color: rgba(255, 255, 255, 1);*/
+/*    background: transparent;*/
+/*}*/
+
+/*.nav>li>a:focus,*/
+/*.nav>li>a:hover {*/
+/*    text-decoration: none;*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.nav>li:before {*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    top: -12px;*/
+/*    left: -5px;*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    background-size: 60px 60px;*/
+/*    filter: opacity(0.5);*/
+
+/*}*/
+
+/*.nav>li:first-of-type:before {*/
+/*    background: url(../images/dashboard_icons/icon-profile.png);*/
+/*}*/
+
+/*.nav>li:nth-of-type(2):before {*/
+/*    background: url(../images/dashboard_icons/icon-documentation.png);*/
+/*}*/
+
+/*.nav>li:nth-of-type(3):before {*/
+/*    background: url(../images/dashboard_icons/icon-inbox.png);*/
+/*}*/
+
+/*.nav>li:nth-of-type(4):before {*/
+/*    background: url(../images/dashboard_icons/icon-offerings.png);*/
+/*}*/
+
+/*.nav>li:nth-of-type(5):before {*/
+/*    background: url(../images/dashboard_icons/icon-investment.png);*/
+/*}*/
+
+
+/*.nav.institutional>li:first-of-type:before {*/
+/*    background: url(../images/dashboard_icons/icon-profile.png);*/
+/*}*/
+
+/*.nav.institutional>li:nth-of-type(2):before {*/
+/*    background: url(../images/dashboard_icons/icon-point-contact.png);*/
+/*}*/
+
+/*.nav.institutional>li:nth-of-type(3):before {*/
+/*    background: url(../images/dashboard_icons/icon-documentation.png);*/
+/*}*/
+
+/*.nav.institutional>li:nth-of-type(4):before {*/
+/*    background: url(../images/dashboard_icons/icon-offerings.png);*/
+/*}*/
+
+/*.nav.institutional>li:nth-of-type(5):before {*/
+/*    background: url(../images/dashboard_icons/icon-investment.png);*/
+/*}*/
+
+/*.nav>li.active:before,*/
+/*.nav>li:hover:before {*/
+/*    filter: opacity(1);*/
+/*}*/
+
+/*.dashboard-content {*/
+/*    margin-top: 50px;*/
+/*    margin-left: 430px;*/
+/*}*/
+
+/*.dashboard-content .info-wrapper {*/
+/*    padding: 0 40px 30px 40px;*/
+/*}*/
+
+/*.small-title {*/
+/*    font-size: 18px;*/
+/*    position: relative;*/
+/*    margin-bottom: 60px;*/
+/*}*/
+
+/*.small-title:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 280px;*/
+/*    height: 2px;*/
+/*    background: #264161;*/
+/*    left: 0;*/
+/*    bottom: -25px;*/
+/*}*/
+
+/*input,*/
+/*.btn.dropdown-toggle {*/
+/*    background-color: #e7ebf1 !important;*/
+/*}*/
+
+/*.dashboard-footer {*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    width: 426px;*/
+/*    z-index: 2000000000;*/
+/*    display: block;*/
+/*    padding: 21px;*/
+/*    color: #fff;*/
+/*}*/
+
+
+/*.logo-footer {*/
+/*    margin-top: 20px;*/
+/*    display: block;*/
+/*}*/
+
+/*#drop-area {*/
+/*    border: 5px dashed #264161;*/
+/*    background: #f4efef;*/
+/*    height: 350px;*/
+/*    border-radius: 0;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*#drop-area .dz-message:before {*/
+/*    display: none;*/
+/*    content: '';*/
+/*}*/
+
+/*p {*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.drop-form {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+
+/*}*/
+
+/*.drop-form-inner {*/
+/*    position: relative;*/
+/*    top: 68%;*/
+/*    transform: translateY(-68%);*/
+/*}*/
+
+/*.button {*/
+/*    display: inline-block;*/
+/*    padding: 10px;*/
+/*    background: #213d5e;*/
+/*    cursor: pointer;*/
+/*    border-radius: 0px;*/
+/*    border: 1px solid #213d5e;*/
+/*    color: #fff;*/
+/*    font-weight: 300;*/
+/*}*/
+
+/*.button:hover {*/
+/*    color: #fff;*/
+/*    background-color: #6169b6;*/
+/*    border-color: #6169b6;*/
+/*}*/
+
+/*#fileElem {*/
+/*    display: none;*/
+/*}*/
+
+
+/*.dashboard-footer ul.list-inline li {*/
+/*    font-size: 14px;*/
+/*    font-weight: 300;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    padding: 2px 10px;*/
+
+/*}*/
+
+/*.dashboard-footer ul.list-inline li>a {*/
+/*    color: #d1deee;*/
+/*}*/
+
+/*.dashboard-footer .copyright {*/
+/*    font-size: 14px;*/
+/*    font-weight: 300;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    color: #d1deee;*/
+/*}*/
+
+/*!********************TABLE**************!*/
+
+/*.table>thead>tr>th {*/
+/*    border-bottom: transparent;*/
+/*    background: #264161;*/
+/*    color: #fff;*/
+/*    font-weight: 300;*/
+/*    padding: 15px;*/
+/*}*/
+
+/*.table>thead>tr>th:first-child,*/
+/*.table>tbody>tr>td:first-child {*/
+/*    border-bottom-left-radius: 5px;*/
+/*    border-top-left-radius: 5px;*/
+/*}*/
+
+/*.table>thead>tr>th:last-child,*/
+/*.table>tbody>tr>td:last-child {*/
+/*    border-bottom-right-radius: 5px;*/
+/*    border-top-right-radius: 5px;*/
+/*}*/
+
+/*.table>tbody>tr>td {*/
+/*    background: #e7ebf1;*/
+/*    padding: 15px;*/
+/*    border-top: 1px solid #fff;*/
+/*}*/
+
+
+/*!************************** CARDS ************************!*/
+/*.card-custom {*/
+
+/*    -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.12);*/
+/*    -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.12);*/
+/*    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.12);*/
+/*    font-size: 16px;*/
+/*}*/
+
+
+
+/*.card-body,*/
+/*.card-footer {*/
+/*    padding: 20px;*/
+
+/*}*/
+
+/*.card-title {*/
+/*    text-align: center;*/
+/*    font-weight: 700;*/
+/*    margin-top: 10px;*/
+/*}*/
+
+/*.card-subtitle {*/
+/*    text-align: center;*/
+/*    font-size: 16px;*/
+/*    padding: 20px 0;*/
+/*    position: relative;*/
+/*}*/
+
+/*.card-subtitle:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    width: 150px;*/
+/*    display: block;*/
+/*    height: 1px;*/
+/*    background: #000;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.card-text {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.card-footer {*/
+/*    background: #3e4e59;*/
+/*    color: #fff;*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*    position: relative;*/
+/*}*/
+
+/*.card-footer_price {*/
+/*    display: block;*/
+/*    color: #ff8400;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*.card-read-more {*/
+/*    color: #fff;*/
+/*    background: #ff8500;*/
+/*    font-size: 18px;*/
+/*    border-radius: 0;*/
+/*    text-transform: lowercase;*/
+/*    padding: 10px 25px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    margin: auto;*/
+/*    width: 160px;*/
+/*}*/
+
+/*.investment_id {*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 700;*/
+/*    font-size: 18px;*/
+/*}*/
+
+/*.investment_id span {*/
+/*    color: #ff8400;*/
+/*}*/
+
+/*.investment_status {*/
+/*    text-transform: uppercase;*/
+/*    font-size: 18px;*/
+/*    font-weight: 500;*/
+/*}*/
+
+/*.investment_status span {*/
+/*    color: #ff8400;*/
+/*}*/
+
+/*.document-list {*/
+/*    line-height: 35px;*/
+/*    padding-left: 25px;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.document-list a {*/
+/*    float: right;*/
+/*}*/
+
+/*.padded20 {*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.text-left {*/
+/*    text-align: left !important;*/
+/*}*/
+
+/*.text-left-mobile-center {*/
+/*    text-align: left !important;*/
+/*}*/
+
+/*.text-right-mobile-center {*/
+/*    text-align: right !important;*/
+/*}*/
+
+/*.text-center {*/
+/*    text-align: center !important;*/
+/*}*/
+
+/*!******* MODAL******!*/
+/*.modal-open {*/
+/*    background: rgba(44, 70, 101, 0.6);*/
+/*}*/
+
+/*.modal-header {*/
+/*    border-bottom: transparent;*/
+/*}*/
+
+/*.modal-title {*/
+/*    margin: 15px;*/
+/*    text-align: center;*/
+/*    text-transform: uppercase;*/
+/*    color: #ff8400;*/
+/*    font-family: 'Relway-Bold', sans-serif;*/
+/*    font-size: 24px;*/
+/*}*/
+
+/*.modal-content {*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.modal-content .checkbox label::before {*/
+/*    border: 1px solid #39516e;*/
+/*    background-color: #e7ebf1;*/
+/*}*/
+
+/*.modal-footer {*/
+/*    border-top: transparent;*/
+/*}*/
+
+/*.info-wrapper .upload-id li.state-id .wrap,*/
+/*.upload-id li.passport .wrap {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.info-wrapper .radio label::before {*/
+/*    border: 1px solid #e4e4e4;*/
+/*    background-color: #f5f5f5;*/
+/*}*/
+
+
+/*.info-wrapper .fa-calendar-alt:before {*/
+/*    color: #264161;*/
+/*}*/
+
+/*.custom-document-input+label {*/
+/*    background: transparent;*/
+/*    border: 1px solid #213d5e;*/
+/*    color: #213d5e;*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.custom-document-input:focus+label,*/
+/*.custom-document-input.has-focus+label,*/
+/*.custom-document-input+label:hover {*/
+/*    background-color: #566fb8;*/
+/*    color: #fff;*/
+/*    border-color: #566fb8;*/
+/*}*/
+
+/*.inbox_wrapper {*/
+/*    height: 500px;*/
+/*    overflow-y: scroll;*/
+/*    overflow-x: hidden;*/
+/*    border: 1px solid #ccc;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.inbox_item{*/
+/*    border:1px solid #f1f1f1;*/
+/*    padding:10px 15px;*/
+/*}*/
+/*.message_from {*/
+/*    color:#39516e ;*/
+/*    font-weight: 700;*/
+/*    font-size: 15px;*/
+/*}*/
+/*.message_from span {*/
+/*    color:#ff5a00;*/
+/*}*/
+
+/*.message_date {*/
+/*    color:#39516e ;*/
+/*    font-weight: 700;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 15px;*/
+/*}*/
+/*.message_date span {*/
+/*    color:#ff5a00;*/
+/*}*/
+
+/*.message_body{*/
+/*    font-size: 16px;*/
+/*    text-align: justify;*/
+/*}*/
+
+/*.inbox_item.recieve{*/
+/*  background: #f9f9f9;*/
+/*}*/
+
+/*@media (max-width: 1199.98px) {*/
+
+/*    .sidebar,*/
+/*    .dashboard-footer {*/
+/*        width: 360px;*/
+/*    }*/
+
+/*    .header-dashboard {*/
+/*        width: calc(100% - 360px);*/
+/*        margin-left: 360px;*/
+/*    }*/
+
+/*    .dashboard-content {*/
+/*        margin-left: 360px;*/
+/*    }*/
+
+/*    .nav>li {*/
+/*        border-bottom: 1px solid #39516e;*/
+/*        margin: 5px 0;*/
+/*        position: relative;*/
+/*    }*/
+
+/*    .card-custom {*/
+/*        margin-bottom: 65px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 991.98px) {*/
+/*    .navbar-toggle .icon-bar {*/
+/*        background: #fff;*/
+/*    }*/
+
+/*    .navbar-header {*/
+/*        float: none;*/
+/*    }*/
+
+/*    .navbar-left,*/
+/*    .navbar-right {*/
+/*        float: none !important;*/
+/*    }*/
+
+/*    .navbar-toggle {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .navbar-collapse {*/
+/*        border-top: 1px solid transparent;*/
+/*        -webkit-box-shadow: none;*/
+/*        box-shadow: none;*/
+/*    }*/
+
+/*    .navbar-fixed-top {*/
+/*        top: 0;*/
+/*        border-width: 0 0 1px;*/
+/*    }*/
+
+/*    .navbar-collapse.collapse {*/
+/*        display: none !important;*/
+/*    }*/
+
+/*    .navbar-nav {*/
+/*        float: none !important;*/
+/*        margin-top: 7.5px;*/
+/*    }*/
+
+/*    .navbar-nav>li {*/
+/*        float: none;*/
+/*    }*/
+
+/*    .navbar-nav>li>a {*/
+/*        padding-top: 10px;*/
+/*        padding-bottom: 10px;*/
+/*    }*/
+
+/*    .collapse.in {*/
+/*        display: block !important;*/
+/*    }*/
+
+/*    .sidebar {*/
+/*        top: 0;*/
+/*        bottom: inherit;*/
+/*        left: 0;*/
+/*        padding: 10px 5px;*/
+/*        width: 100%;*/
+/*        right: 0;*/
+/*    }*/
+
+/*    .sidebar .logo {*/
+/*        margin: 0;*/
+/*    }*/
+
+/*    .header-dashboard {*/
+/*        width: 100%;*/
+/*        margin-left: 0;*/
+/*        margin-top: 100px;*/
+/*        padding: 15px 0;*/
+/*    }*/
+
+/*    .dashboard-content {*/
+/*        margin-left: 0;*/
+/*        margin-top: 30px;*/
+/*    }*/
+
+/*    .dashboard-footer {*/
+/*        width: 100%;*/
+/*        position: relative;*/
+/*        background: #264161;*/
+/*        z-index: 2;*/
+/*    }*/
+
+/*    .dashboard-content .info-wrapper {*/
+/*        padding: 0 0px;*/
+/*    }*/
+
+/*    .header-dashboard .btn-logout {*/
+/*        display: none;*/
+/*    }*/
+
+/*    .nav>li {*/
+/*        margin: 5px 0;*/
+/*        position: relative;*/
+/*    }*/
+
+/*    .nav>li:before {*/
+/*        top: 0px;*/
+/*        left: 0;*/
+/*        width: 40px;*/
+/*        height: 40px;*/
+/*        background-size: 40px 40px !important;*/
+/*    }*/
+
+/*    .nav>li>a {*/
+/*        font-size: 15px;*/
+/*        padding-left: 45px;*/
+/*    }*/
+
+/*    .header-info_name {*/
+/*        color: #ff5a00;*/
+/*        padding: 0 0 10px 0;*/
+/*        display: block;*/
+/*    }*/
+
+/*    .header-dashboard .contact-info {*/
+/*        display: block;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .sidebar .nav {*/
+/*        height: auto;*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .inbox_wrapper{*/
+/*        margin-bottom: 50px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 767.98px) {*/
+
+/*    .text-right-mobile-center,*/
+/*    .text-left-mobile-center {*/
+/*        text-align: center !important;*/
+/*    }*/
+/*}*/

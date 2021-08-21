@@ -1,0 +1,31 @@
+.uploadSignedFileBtn{
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 12px !important;
+    color: green  !important;
+    font-size: 14px !important;
+}
+
+.uploadSignedFileBtn:hover{
+    border-top: none !important;
+    border-radius: 12px !important;
+    text-decoration: none !important;
+}
+
+.uploadSignedFileBtnRed{
+    background-color: transparent !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 12px !important;
+    color: #dc3545  !important;
+    font-size: 14px !important;
+}
+
+.uploadSignedFileBtnRed:hover{
+    border-top: none !important;
+    border-radius: 12px !important;
+    text-decoration: none !important;
+}

@@ -1,0 +1,75 @@
+.tableHead {
+    background: #BCDFEF;
+}
+
+.newTable {
+    margin-left: 0;
+    margin-right: auto;
+    table-layout: fixed;
+    font-size: 13.5px;
+}
+
+.tableHeading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: darkblue;
+}
+
+.firstHeading {
+    padding-left: 10px;
+    border-radius: 15px 0 0 0;
+}
+
+.lastHeading {
+    padding-right: 5px;
+    border-radius: 0 15px 0 0;
+}
+
+.tableData {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.firstData {
+    padding-left: 10px;
+}
+
+.tableStatus {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.page-item.active .page-link{
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.page-item:first-child .page-link:hover {
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.page-item:last-child .page-link:hover {
+    background: #67C4EF;
+    border-color: darkblue
+}
+
+.pagination li a:hover {
+    background: #67C4EF;
+}
+
+.defaultBtn {
+    border-radius: 20px !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.descriptionSpace {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.noTextBtn {
+    padding-right: 4px !important;
+}

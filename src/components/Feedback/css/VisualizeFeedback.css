@@ -1,0 +1,100 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.visualizeFeedbackQuestionContainer{
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    box-shadow: 0 0 15px powderblue;
+    background-color: white !important;
+}
+
+.titleText{
+    color: #1C4857;
+}
+
+.visualizeFeedbackQuestionHeaderDiv{
+    width: 99% !important;
+    color: #1C4857;
+    border-bottom: 1px solid dimgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackQuestionBodyDiv{
+    color: #1C4857;
+    margin-right: auto;
+    margin-left: 5px;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackQuestionFooterDiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackButtons{
+    border-radius: 10px !important;
+    min-width: 120px;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackTextInput{
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 3px gray;
+    color: #4f555b;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackNumInput{
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 3px gray;
+    color: #4f555b;
+
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.visualizeFeedbackCheckInput{
+
+    border-style: none !important;
+    box-shadow: 0 0 3px gray;
+    color: #4f555b;
+
+    font-weight: normal;
+    font-size: 15px;
+
+}

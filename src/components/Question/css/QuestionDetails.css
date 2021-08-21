@@ -1,0 +1,86 @@
+.openedAnnouncementContainer {
+    margin-top: 30px;
+    min-height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 3px gray;
+}
+
+.openedAnnouncementTitle {
+    color: #1C4857;
+}
+
+.openedAnnouncementBody {
+    color: #343a40;
+    font-size: 14px;
+    text-align: justify;
+    margin: 0 15px 0 15px;
+}
+
+.openedAnnouncementAttachmentDiv {
+    margin: 10px 15px 10px 15px;
+}
+
+.openedAnnouncementInfoCol {
+    display: flex;
+    justify-content: center;
+}
+
+.openedAnnouncementInfoDiv {
+    width: 97% !important;
+    min-height: 30px;
+    border-top: 1px solid dimgrey;
+    border-radius: 10px;
+    padding: 5px 10px 0 10px;
+}
+
+.openedAnnouncementInfo {
+    font-size: 14px;
+}
+
+
+.openedAnnouncementAddCommentContainer {
+    margin-top: 30px;
+    min-height: 70px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 3px gray;
+    display: flex;
+}
+
+.openedAnnouncementAddCommentTextInput {
+    border-radius: 10px;
+}
+
+.openedAnnouncementAddCommentButton {
+    height: 100%;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    background-color: #343a40 !important;
+    box-shadow: none !important;
+    border: none !important;
+
+}
+
+.commentDivDate {
+    white-space: nowrap !important;
+}
+
+.openedAnnouncementBackButton {
+    border-radius: 10px !important;
+    float: right;
+    margin-top: 20px;
+    padding: 5px 30px 5px 30px;
+}
+
+.styles_ReactBorderWrapperParent__1rSkK {
+    width: 100% !important;
+}
+
+.opacityComment {
+    opacity: 0.5;
+}
+
+.classForButtonOpacity {
+    opacity: 1 !important;
+}

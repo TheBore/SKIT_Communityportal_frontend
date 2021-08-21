@@ -1,0 +1,72 @@
+.FAQMainDiv{
+    /*background: rgb(224,224,224);*/
+    /*background: linear-gradient(153deg, rgba(224,224,224,1) 67%, rgba(222,222,222,1) 100%);*/
+    border-radius: 15px;
+    margin-top: 25px;
+    color: #6c757d;
+    word-wrap: break-word;
+    padding: 10px;
+
+    box-shadow: 0 0 25px powderblue;
+    background-color: white;
+}
+
+.FAQQuestionRow{
+    border-radius: 10px;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #505050;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.page-item.active .page-link{
+    background-color: #595d6e;
+    border-color: #595d6e;
+    box-shadow: none;
+}
+
+.pagination li a:hover{
+    background-color: #595d6e;
+    border-color: #595d6e;
+    color: white;
+}
+
+.page-link{
+    color: #6c757d;
+}
+
+.FAQAdminActionButton{
+    float: right;
+    margin-left: 5px;
+    width: 110px;
+    height: 35px;
+}
+
+.newLine {
+    white-space: pre-line;
+    font-weight: normal;
+    font-size: medium;
+}
+
+a.document{
+    color: white;
+    background-color: #17A2B8;
+    font-weight: normal;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #17A2B8 ;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+a.document:hover{
+    color: #17A2B8;
+    background-color: white;
+}
