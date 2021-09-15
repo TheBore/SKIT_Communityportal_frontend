@@ -16,7 +16,9 @@ const NAPAdd = (props) => {
         console.log("value", value);
         console.log("name", name);
 
-        validation[name].error = value === null || value === '';
+        if(validation[name] !== undefined){
+            validation[name].error = value === null || value === '';
+        }
 
         props.onChange(name, value);
     };
